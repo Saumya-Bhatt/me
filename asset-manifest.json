@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/me/static/css/main.d0a64d10.css",
+    "main.js": "/me/static/js/main.d31550c0.js",
+    "static/js/787.e8a52378.chunk.js": "/me/static/js/787.e8a52378.chunk.js",
+    "static/media/dsa.png": "/me/static/media/dsa.81903f84c2df13361120.png",
+    "static/media/oop.png": "/me/static/media/oop.816ccac00b43ec649307.png",
+    "static/media/spring.png": "/me/static/media/spring.94f201ce44348763e6a5.png",
+    "static/media/IR.jpg": "/me/static/media/IR.d28339e63c19d888d43f.jpg",
+    "static/media/history.jpg": "/me/static/media/history.a0ec43c60dee68e6b855.jpg",
+    "static/media/Github_white.svg": "/me/static/media/Github_white.8cfb23669f761b6163d57a3d1e3e1f4b.svg",
+    "static/media/Behance_white.svg": "/me/static/media/Behance_white.02248d373eb2092565c71b646cb21055.svg",
+    "static/media/LinkedIN_white.svg": "/me/static/media/LinkedIN_white.414de155b2518a2ba8f2b766fb2044e6.svg",
+    "index.html": "/me/index.html",
+    "static/media/Gmail_white.svg": "/me/static/media/Gmail_white.fe85e1b0490d1557068c092a34e0017a.svg",
+    "static/media/external_link.svg": "/me/static/media/external_link.4138c3f7a144f13c058f92172739e24e.svg",
+    "main.d0a64d10.css.map": "/me/static/css/main.d0a64d10.css.map",
+    "main.d31550c0.js.map": "/me/static/js/main.d31550c0.js.map",
+    "787.e8a52378.chunk.js.map": "/me/static/js/787.e8a52378.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d0a64d10.css",
+    "static/js/main.d31550c0.js"
+  ]
+}
