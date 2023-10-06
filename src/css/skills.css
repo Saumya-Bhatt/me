@@ -1,22 +1,21 @@
 .skill-name {
-  height: 70px;
-  width: 70px;
-  padding: 15px;
-  margin-right: 10px;
-  background-color: #343434;
-  font-size: 12px;
+  font-size: 15px;
   font-weight: bold;
-  line-height: 2;
-  border-radius: 2px;
+  margin-bottom: 1%;
 }
 
 .skill-category {
-  display: flex;
   align-items: center;
+  margin: 2.5% 0%;
+}
+.skill-link:hover{
+  transform: rotateZ(15deg);
+  transition: 0.5s;
 }
 
 .skill-link {
   text-decoration: none;
+  transition: 0.5s;
 }
 
 .skill-category-container {
@@ -26,12 +25,12 @@
 
 .skill-category-item {
   background-color: #242424;
-  padding: 15px;
   text-align: center;
   border-radius: 2px;
+  margin: 10px 20px 10px 0px;
+  padding: 15px;
   height: 70px;
   width: 70px;
-  margin: 10px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 

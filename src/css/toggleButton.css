@@ -1,0 +1,12 @@
+.toggle-switch {
+    background-color: #242424;
+    border: none;
+    margin-top: 20px;
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.toggle-switch:hover {
+    cursor: pointer;
+}
