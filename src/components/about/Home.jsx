@@ -28,6 +28,9 @@ export default function Home(props) {
                         <a href="#Skills">03 - Skills</a>
                         <a href="#Resources">04 - Resources</a>
                     </div>
+                <br />
+                <br />
+                <br />
             <Footer socialsData={props.socialsData} />
         </div>
     )
