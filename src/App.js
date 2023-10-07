@@ -4,7 +4,7 @@ import Projects from './components/resume/Projects';
 import Resources from './components/resume/Resources';
 import Skills from './components/resume/Skills';
 
-import { resumeData } from './resumeData';
+import { resumeData } from './resume/resumeData';
 
 import './css/skills.css'
 import './css/card.css'

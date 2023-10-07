@@ -1,42 +1,42 @@
-import nodejs from './images/skills/backend/node-js.png';
-import express from './images/skills/backend/express.png';
-import django from './images/skills/backend/django.png';
-import flask from './images/skills/backend/flask.png';
-import spring from './images/skills/backend/spring.png';
-import ktor from './images/skills/backend/ktor.png';
+import nodejs from '../images/skills/backend/node-js.png';
+import express from '../images/skills/backend/express.png';
+import django from '../images/skills/backend/django.png';
+import flask from '../images/skills/backend/flask.png';
+import spring from '../images/skills/backend/spring.png';
+import ktor from '../images/skills/backend/ktor.png';
 
-import react from './images/skills/frontend/react.png';
-import html from './images/skills/frontend/html.png';
-import css from './images/skills/frontend/css3.png';
-import bootstrap from './images/skills/frontend/bootstrap.png';
+import react from '../images/skills/frontend/react.png';
+import html from '../images/skills/frontend/html.png';
+import css from '../images/skills/frontend/css3.png';
+import bootstrap from '../images/skills/frontend/bootstrap.png';
 
-import mongodb from './images/skills/database/mongodb.png';
-import mysql from './images/skills/database/mysql.png';
-import elastic from './images/skills/database/elasticsearch.png';
-import postgresql from './images/skills/database/postgresql.png';
-import redis from './images/skills/database/redis.png';
+import mongodb from '../images/skills/database/mongodb.png';
+import mysql from '../images/skills/database/mysql.png';
+import elastic from '../images/skills/database/elasticsearch.png';
+import postgresql from '../images/skills/database/postgresql.png';
+import redis from '../images/skills/database/redis.png';
 
-import postman from './images/skills/tools/postman.png';
-import firebase from './images/skills/tools/firebase.png';
-import figma from './images/skills/tools/figma.png';
-import android from './images/skills/tools/android-studio.png';
-import heroku from './images/skills/tools/heroku.png';
-import aws from './images/skills/tools/aws.png';
-import terraform from './images/skills/tools/terraform.png';
-import docker from './images/skills/tools/docker.png';
-import githubTool from './images/skills/tools/github.png';
+import postman from '../images/skills/tools/postman.png';
+import firebase from '../images/skills/tools/firebase.png';
+import figma from '../images/skills/tools/figma.png';
+import android from '../images/skills/tools/android-studio.png';
+import heroku from '../images/skills/tools/heroku.png';
+import aws from '../images/skills/tools/aws.png';
+import terraform from '../images/skills/tools/terraform.png';
+import docker from '../images/skills/tools/docker.png';
+import githubTool from '../images/skills/tools/github.png';
 
-import placements from './images/resources/placements.jpg';
-import dsa from './images/resources/dsa.png';
-import oop from './images/resources/oop.png';
-import ir from './images/resources/IR.jpg';
-import history from './images/resources/history.jpg';
+import placements from '../images/resources/placements.jpg';
+import dsa from '../images/resources/dsa.png';
+import oop from '../images/resources/oop.png';
+import ir from '../images/resources/IR.jpg';
+import history from '../images/resources/history.jpg';
 
-import github from './images/icons/Github_white.svg';
-import linkedin from './images/icons/LinkedIN_white.svg';
-import gmail from './images/icons/Gmail_white.svg';
-import behance from './images/icons/Behance_white.svg';
-import medium from './images/icons/medium.svg'
+import github from '../images/icons/Github_white.svg';
+import linkedin from '../images/icons/LinkedIN_white.svg';
+import gmail from '../images/icons/Gmail_white.svg';
+import behance from '../images/icons/Behance_white.svg';
+import medium from '../images/icons/medium.png'
 
 
 export const resumeData = {
@@ -49,8 +49,8 @@ export const resumeData = {
             title: 'Software Engineer 1',
             summary: 'Working with the payments platforms team to build various financial tools used across the orginization.',
             description: [
-                "Built various usecases in the payments microservice, which currently processes 1 Lakh transactions in a month.",
-                "Built routing logic such as to switch between different PGs based on region and customer pattern in real time.",
+                "Built various use-cases in the payments microservice, adhering to SOLID design patterns, which currently processes 1 Lakh transactions in a month.",
+                "Built routing logic such as switching between different PGs based on region and customer pattern in real time.",
                 "Managed to bring the uptime of the said microservice from ~80% to 99%.",
                 "Built retry and fallback logic into the service to bring the payment success rate from 64% to 84%."
             ]
