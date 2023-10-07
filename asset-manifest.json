@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/me/static/css/main.582bbfa8.css",
-    "main.js": "/me/static/js/main.01feefb0.js",
+    "main.css": "/me/static/css/main.d2611149.css",
+    "main.js": "/me/static/js/main.9673b3b5.js",
     "static/js/787.e8a52378.chunk.js": "/me/static/js/787.e8a52378.chunk.js",
+    "static/media/Saumya Bhatt Resume.pdf": "/me/static/media/Saumya Bhatt Resume.0efd0996e60c9c7ec561.pdf",
     "static/media/aws.png": "/me/static/media/aws.5ceeed1c98e83746fe94.png",
     "static/media/dsa.png": "/me/static/media/dsa.ce92f635056331484c51.png",
     "static/media/github.png": "/me/static/media/github.849037e9dded098aa8da.png",
@@ -15,17 +16,16 @@
     "static/media/spring.png": "/me/static/media/spring.58b0c64cb0b5dc5ccc8d.png",
     "static/media/Github_white.svg": "/me/static/media/Github_white.dcda1ca50cb062bc33cf984624d4eb23.svg",
     "static/media/Behance_white.svg": "/me/static/media/Behance_white.03c22597ed832f094886b6384fe4b7f1.svg",
-    "static/media/medium.svg": "/me/static/media/medium.17cc04534dc257f295fa9b2bc217f370.svg",
     "index.html": "/me/index.html",
     "static/media/LinkedIN_white.svg": "/me/static/media/LinkedIN_white.4ea02e197afb44c162fc7192191126d5.svg",
     "static/media/Gmail_white.svg": "/me/static/media/Gmail_white.8229f9e6351a6b6a181b0136105ae980.svg",
     "static/media/external_link.svg": "/me/static/media/external_link.9494166ea1779b00d6ef2e4b997f5b23.svg",
-    "main.582bbfa8.css.map": "/me/static/css/main.582bbfa8.css.map",
-    "main.01feefb0.js.map": "/me/static/js/main.01feefb0.js.map",
+    "main.d2611149.css.map": "/me/static/css/main.d2611149.css.map",
+    "main.9673b3b5.js.map": "/me/static/js/main.9673b3b5.js.map",
     "787.e8a52378.chunk.js.map": "/me/static/js/787.e8a52378.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.582bbfa8.css",
-    "static/js/main.01feefb0.js"
+    "static/css/main.d2611149.css",
+    "static/js/main.9673b3b5.js"
   ]
 }
