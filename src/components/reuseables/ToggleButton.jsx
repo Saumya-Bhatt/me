@@ -23,18 +23,22 @@ export default function ToggleButton(props) {
                 isToggled ? (
                     props.asList ? 
                         (
-                            props.data.map((point) => {
-                                return (
-                                    <li
-                                        key={point}
-                                        className="card-description"
-                                    >
-                                        {point}
-                                    </li>
-                                )
-                            })
+                            <ul className="toggle-description-box">
+                                {
+                                    props.data.map((point) => {
+                                        return (
+                                            <li
+                                                key={point}
+                                                className="toggle-description"
+                                            >
+                                                {point}
+                                            </li>
+                                        )
+                                    })
+                                }
+                            </ul>
                         ) : (
-                            <div className="card-description">
+                            <div className="toggle-description">
                                 {props.data}
                             </div>
                         )

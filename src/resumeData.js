@@ -47,11 +47,12 @@ export const resumeData = {
             location: 'Bengaluru, Karnataka',
             duration: 'July 2022 - Present',
             title: 'Software Engineer 1',
-            summary: 'Working with the payments and locations platforms team',
+            summary: 'Working with the payments platforms team to build various financial tools used across the orginization.',
             description: [
                 "Built various usecases in the payments microservice, which currently processes 1 Lakh transactions in a month.",
-                "Worked on improving location recency of driver app, to bring it's p99 from 40 to ~15 minutes.",
-                "Managed to bring the uptime of the microservice I worked on from ~80% to 99%."
+                "Built routing logic such as to switch between different PGs based on region and customer pattern in real time.",
+                "Managed to bring the uptime of the said microservice from ~80% to 99%.",
+                "Built retry and fallback logic into the service to bring the payment success rate from 64% to 84%."
             ]
         },
         {
@@ -60,22 +61,23 @@ export const resumeData = {
             location: 'Noida, UP',
             duration: 'June 2021 - December 2021',
             title: 'Software Engineering Intern',
-            summary: 'Currently worked with the B2B facing team called Finaxia for classifying their customer base',
+            summary: 'Worked with the B2B facing team called FinnAxia for classifying their customer base',
             description: [
-                'Built end to end application to classify customers and display it onto a dashboard.',
-                "Dashboard had functionality to get updated in near-real time."
+                "Developed a customer classification and visualization dashboard for banks to gain insights from.",
+                "Built a three-way system which included a K-means clustering algorithm to classify dataset, Spring Boot based web-server to relay that data to a frontend built in ReactJS."
             ]
         },
         {
             company: 'National Institute of Oceanography',
-            link: 'https://www.nio.org/',
+            link: 'https://github.com/Saumya-Bhatt/NIO-Dashboard',
             location: 'Panjim, Goa',
             duration: 'August 2020 - October 2020',
             title: 'Summer Intern',
             summary: 'Worked with the Marine Scoping team to built a communication channel with their bot',
             description: [
-                'Created web-based dashboard to manage and control 25 marine robots in real-time.',
-                "Server was able to successfully fetch near-real time updates from the bot including their location and other parameters."
+                ' Created a web-based dashboard to manage and communicate with 25 marine robots in real-time.',
+                "Included ability to track location and stream camera feed in near-real time using OpenCV, WebSockets and RTSP Protocols.",
+                "Involved in using concepts of rasterization to generate live offline mapping using images"
             ]
         }
     ],
@@ -83,19 +85,19 @@ export const resumeData = {
         {
             name: 'Movies-By-the-Sea',
             tech: 'Flask, React',
-            description: 'Created backend, frontend and public REST API with custom authentication',
+            description: 'Created backend, frontend and role based REST API with custom authentication for personal movie review blog.',
             link: 'https://github.com/Movies-By-the-Sea'
         },
         {
             name: 'Twitter-Clone',
             tech: 'Flask, MySQL',
-            description: 'Working Twitter clone with user, session and cookie management system',
+            description: ' Fullstack Twitter clone with user authentication, cookie and session management system with CRUD abilities based on user roles.',
             link: 'https://github.com/Saumya-Bhatt/Twitter-Clone'
         },
         {
             name: 'Chat-Room',
             tech: 'Ajax, MySQL',
-            description: 'Realtime updating and locally hosted chat room built in Javascript',
+            description: 'Near-Real time updating multi-user chat room which could be hosted locally on an apache Server.',
             link: 'https://github.com/Saumya-Bhatt/Chat-Room'
         }
     ],
@@ -236,7 +238,7 @@ export const resumeData = {
         {
             name: 'Data Structures and Algorithms',
             link: 'https://saumya-bhatt.notion.site/62ea2570009044338ee7e88f7db66d1f?v=f8d1e79aeaeb4acfaf8455fb6c9e5364',
-            description: 'Covering all important DSA topics required for IT placements',
+            description: 'Covering all important DSA theory topics required for IT placements',
             img: dsa
         },
         {

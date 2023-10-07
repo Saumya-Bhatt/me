@@ -12,12 +12,13 @@ export default function Card(props) {
                 {props.resourceList.map((item) => {
                     return (
                         <div className="card-item" key={item.cardName}>
-                            {props.requireHeaders ? (
-                                <div className="card-metadata">
-                                    <div>{item.metadataLeft}</div>
-                                    <div>{item.metadataRight}</div>
-                                </div>
-                            ) : (<></>)
+                            {
+                                props.requireHeaders ? (
+                                    <div className="card-metadata">
+                                        <div>{item.metadataLeft}</div>
+                                        <div>{item.metadataRight}</div>
+                                    </div>
+                                ) : (<></>)
                             }
                             <a 
                                 rel='noreferrer'
@@ -28,7 +29,7 @@ export default function Card(props) {
                                 {item.cardName}
                                 <img src={external} alt="External Link" className="external-icon" />
                             </a>
-                            <div className="card-description">
+                            <div className="card-summary">
                                 {item.cardSummary}
                             </div>
                             {

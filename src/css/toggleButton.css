@@ -10,3 +10,9 @@
 .toggle-switch:hover {
     cursor: pointer;
 }
+
+.toggle-description {
+    color: #808080;
+    font-size: 13px;
+    line-height: 200%;
+}
