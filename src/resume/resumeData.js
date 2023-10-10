@@ -1,14 +1,16 @@
-import nodejs from '../images/skills/backend/node-js.png';
-import express from '../images/skills/backend/express.png';
-import django from '../images/skills/backend/django.png';
-import flask from '../images/skills/backend/flask.png';
-import spring from '../images/skills/backend/spring.png';
-import ktor from '../images/skills/backend/ktor.png';
+import kotlin from '../images/skills/languages/Kotlin.png';
+import java from '../images/skills/languages/java.png';
+import javascript from '../images/skills/languages/javascript.png';
+import python from '../images/skills/languages/python.png';
+import cpluspluss from '../images/skills/languages/c++.png';
 
-import react from '../images/skills/frontend/react.png';
-import html from '../images/skills/frontend/html.png';
-import css from '../images/skills/frontend/css3.png';
-import bootstrap from '../images/skills/frontend/bootstrap.png';
+import nodejs from '../images/skills/framework/node-js.png';
+import express from '../images/skills/framework/express.png';
+import django from '../images/skills/framework/django.png';
+import flask from '../images/skills/framework/flask.png';
+import spring from '../images/skills/framework/spring.png';
+import ktor from '../images/skills/framework/ktor.png';
+import react from '../images/skills/framework/react.png';
 
 import mongodb from '../images/skills/database/mongodb.png';
 import mysql from '../images/skills/database/mysql.png';
@@ -103,7 +105,37 @@ export const resumeData = {
     ],
     "skills": [
         {
-            field: 'Backend Stack',
+            field: 'Languages',
+            tech: [
+                {
+                    name: "Kotlin",
+                    img: kotlin,
+                    link: "https://kotlinlang.org/"
+                },
+                {
+                    name: "Java",
+                    img: java,
+                    link: "https://www.oracle.com/java/"
+                },
+                {
+                    name: "Python",
+                    img: python,
+                    link: "https://www.python.org/"
+                },
+                {
+                    name: "Javascript",
+                    img: javascript,
+                    link: "https://developer.mozilla.org/en-US/docs/Web/javascript"
+                },
+                {
+                    name: "C++",
+                    img: cpluspluss,
+                    link: "https://cplusplus.com/"
+                }
+            ]
+        },
+        {
+            field: 'Libraries and Frameworks',
             tech: [
                 {
                     name: "Ktor",
@@ -134,31 +166,11 @@ export const resumeData = {
                     name: 'Django',
                     img: django,
                     link: 'https://www.djangoproject.com/'
-                }
-            ]
-        },
-        {
-            field: 'Frontend Stack',
-            tech: [
+                },
                 {
                     name: 'React',
                     img: react,
                     link: 'https://reactjs.org/'
-                },
-                {
-                    name: 'HTML 5',
-                    img: html,
-                    link: 'https://dev.w3.org/html5/html-author/'
-                },
-                {
-                    name: 'CSS 3',
-                    img: css,
-                    link: 'https://css3.com/'
-                },
-                {
-                    name: 'Bootstrap',
-                    img: bootstrap,
-                    link: 'https://getbootstrap.com/'
                 }
             ]
         },
